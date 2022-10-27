@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS styles</title>
+        <link rel="shortcut icon" href="https://cdn-images-1.medium.com/max/1024/1*cVLwaiFLrGDzWMJLGNXg8Q.png">
+    </head>
+    <style>
+    h3.title {
+    text-align:center;
+    }
+#font{
+font-family:"Courier New", Courier, monospace;
+}
+.font2{
+    font-family:"Times New Roman", Times, serif;
+}
+.font3{
+    font-family:Arial;
+}
+.haha{
+    font-size:xx-small;
+}
+.hehe{
+    font-size:medium;
+}
+.hoho{
+    font-size:large;
+}
+</style>
+    <body style="background-color:pink; color:black;">
+        <h1 align="center" style="color:MediumAquamarine; text-shadow:5px 2px 4px DarkOliveGreen, 7px 3px 5px Grey;">CSS текстовые элементы</h1>
+        <hr/>
+        <h3 class="title">Шрифты</h3>
+        <p id="font">Я люблю пиццу</p>
+        <p class="font2">Я люблю пиццу</p>
+        <p class="font3">Я люблю пиццу</p>
+    <hr/>
+    <h3 class="title">Размер шрифта</h3>
+    <p class="haha">Мелкий шрифт</p>
+    <p class="hehe">Средний шрифт</p>
+    <p class="hoho">Большой шрифт</p>
+    <p style="font-size:25px;">Шрифт указанный в пикселях(25px)</p>
+    <hr/>
+    <h3 class="title">Толщина текста</h3>
+    <p style="font-weight:bold;">На улице прекрасная погода</p>
+     <p style="font-weight:lighter;">На улице прекрасная погода</p>
+     <hr/>
+      <h3 class="title">Специальный шрифт</h3>
+      <p style="font-variant:small-caps;">Шрифт маленькими заглавными буквами<br/>
+          This is font in English 
+      </p>
+      <hr/>
+      <h3 class="title">Горизонтальное расположение текста</h3>
+      <p style="text-align:left;">Я сегодня ела крабовый салат</p>
+       <p style="text-align:center;">Ещё злаковые батончики</p>
+        <p style="text-align:right;">А так же запивала это всё липтоном)0))</p>
+        <hr/>
+        <h3 class="title">Вертикальное расположение текста</h3>
+        <p align="center" style="font-size:xx-small;">(Но увы работает только в таблицах)</p>
+        <table border="2" cellpadding="2" cellpacing="0" style="height:200px;">
+        <tr>
+        <td style="vertical-align:top">В вверху</td>
+         <td style="vertical-align:middle">По середине</td>
+          <td style="vertical-align:bottom">Внизу</td>
+          </tr>
+          </table>
+          <hr/>
+           <h3 class="title">Ещё прикольный вид текста</h3>
+           <p><i>Это пример <span style="vertical-align:sub;">текста</span> такого вида</i></p>
+           <p>Это пример<span style="vertical-align:super;"> текста</span> чуть-чуть другого вида</p>
+           <hr/>
+           <h3 class="title">Текстовые декорации</h3>
+           <p style="text-decoration:overline;">Подчёркнутый сверху текст</p>
+           <p style="text-decoration:underline;">Подчёркнутый снизу текст</p>
+           <p style="text-decoration:line-through;">Зачёркнутый текст</p>
+           <p style="text-decoration:overline underline;">Комбинированные селекторы</p>
+           <hr/>
+           <h3 class="title">Отступ с самого начала</h3>
+           <p style="text-indent:80px;">Текст с начала новой строки, типо много тут текста блаблаблабалаблабалабалабалалабалабалааблабалабалаабла</p>
+           <hr/>
+           <h3 class="title">Тени для текста</h3>
+           <p style="text-shadow:5px 2px 4px grey;"><b>Текст с тенью</b></p>
+           <p style="color:Purple; text-shadow:3px 4px 4px DarkSlateBlue;"><b>Текст с фиолетовой тенью</b></p>
+    </body>
+    <p style="color:LightYellow; text-shadow:4px 6px 1px Moccasin;"><b>Текст с тенью, но без эффекта размытия</b></p>
+    <p style="color:ForestGreen; text-shadow:5px 2px 4px LemonChiffon, -5px -2px 4px MediumAquamarine;"><b>Текст с двойной тенью разных цветов</b></p>
+    <hr/>
+    <h3 class="title">Определение регистра текста</h3>
+    <p style="text-transform:capitalize;">Каждое слово в тексте с заглавной буквы, даже когда я не использую капс</p>
+    <p style="text-transform:lowercase;">КАЖДОЕ СЛОВО В ТЕКСТЕ БУДЕТ С МАЛЕНЬКИХ БУКВ, ДАЖЕ КОГДА БУДУ ПИСАТЬ КАПСОМ</p>
+    <p style="text-transform:uppercase;">весь текст капсом</p>
+    <hr/>
+    <h3 class="title">Расстояние между символами</h3>
+    <p style="letter-spacing:5px;">Большое расстояние между символами</p>
+    <p style="letter-spacing:-1px;">Отрицательное значение в пикселях - слипшейся текст(-1px)</p>
+    <hr/>
+    <h3 class="title">Расстояние между словами</h3>
+    <p style="word-spacing:5px;">Отдаленные друг от друга слова</p>
+    <p style="word-spacing:325px;">Яблоко Банан Апельсин</p>
+    <p style="word-spacing:-6px;">Слипшиеся слова</p>
+    <p style="word-spacing:-25px;">Да Нет</p>
+    <p>Одно слово на другом</p>
+    </hr>
+    
+</html>
